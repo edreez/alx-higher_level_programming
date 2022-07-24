@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""This file reads and prints to stdout
+"""
 
 
 def read_file(filename=""):
@@ -8,5 +10,5 @@ Args:
     filename (str): name of the file to be read
     """
     with open(filename, encoding="utf-8") as f:
-        fc = f.read(2000)
+        fc = f.read()
         print(fc, end="")
