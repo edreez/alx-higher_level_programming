@@ -1,4 +1,4 @@
-!/usr/bi/python3
+#!/usr/bin/python3
 """
 This script adds all its argument to a list
  and saves them to a file in json format.
