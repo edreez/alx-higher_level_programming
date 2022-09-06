@@ -1,4 +1,4 @@
-i#!/usr/bin/node
+#!/usr/bin/node
 'use strict';
 let l = process.argv.length;
 if (l == 2) {
